@@ -1,0 +1,107 @@
+@font-face
+{
+	font-family: 'Helvetica LT STD Black'; src: url('fonts/HelveticaLTStd-Blk.otf');
+	font-family: 'Helvetica LT STD Light'; src: url('fonts/HelveticaLTStd-Light.otf');
+	font-family: 'Helvetica'; src: url('fonts/HelveticaWorld-Regular.ttf');
+}
+
+html {
+	overflow-y: hidden; 
+	overflow-x: hidden;
+} 
+
+header {
+	z-index:1000;
+}
+
+body {
+	margin: 0;
+}
+
+ .menu {   
+    
+    position: fixed;
+	background: #ff0000;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0%;
+    z-index: 1;
+}
+
+.menu a {
+	font-family: Helvetica;
+	font-weight: bold;
+	color: white;
+	font-size: 24px;
+	margin: 20px;
+	cursor: pointer;
+}
+
+.menu a:hover {
+	text-decoration:underline;
+}
+
+.wrap {
+	height: 100vh;
+	/* vh = view height soit hauteur de l'écran en % */
+	width: 100vw;
+	/* vw = view width soit largeur de l'écran en % */
+
+}
+
+p {
+	margin:0;
+	padding-left: 10%;
+	padding-top: 10%;
+}
+
+.id {
+	margin-left: 60%;
+	margin-top: -30%;
+	position: relative;
+    z-index: 0;
+}
+
+.titre {
+	font-family: 'Helvetica LT STD Black';
+	font-size: 80px;
+}
+
+.s-titre {
+	font-family: 'Helvetica LT STD Light';
+	font-size: 50px;
+}
+
+.contact {
+	font-family: 'Helvetica';
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.texte {
+	font-family: 'Helvetica';
+	font-size:25px;
+}
+
+#pres {
+	background: white;
+}
+
+#exp {
+	background: #ffd000;
+}
+
+#form {
+	background: blue;
+}
+
+#comp {
+	background: green;
+}
+
+#hobbies {
+	background: black;
+}
